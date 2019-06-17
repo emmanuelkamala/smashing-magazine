@@ -17,6 +17,10 @@ header{
     margin-top: 0;
 }
 
+main  {
+    background-color: rgb(240, 234, 234);
+}
+
 
 .intro-article::after {
    content: "";
@@ -104,11 +108,38 @@ header{
 
 
 .latest-articles {
-    background-color: peru;
+   
     height: 600px;
-    margin-bottom: 5px;
+    margin: 25px auto;
+    
 }
 
+.latest-article1,
+.latest-article2,
+.latest-article3 {
+    float: left;
+    height: 600px;
+}
+
+.latest-article1 {
+    background-color: rgb(133, 131, 131);
+    width: 45%;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+.latest-article2,
+.latest-article3 {
+    width: 25%;
+}
+
+.latest-article2 {
+    background-color: rgb(143, 142, 142);
+}
+
+.latest-article3 {
+    background-color: rgb(155, 153, 153);
+}
 
 .meeting {
     height: 400px;
