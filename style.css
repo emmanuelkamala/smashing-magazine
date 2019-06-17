@@ -159,16 +159,22 @@ nav ul li button {
     
 }
 
+.latest-articles:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .latest-article1,
 .latest-article2,
 .latest-article3 {
     float: left;
-    height: 600px;
+    height: 580px;
 }
 
 .latest-article1 {
     background-color: rgb(133, 131, 131);
-    width: 45%;
+    width: 48%;
     margin: 15px;
     border-radius: 5px;
 }
@@ -188,7 +194,39 @@ nav ul li button {
 
 .meeting {
     height: 400px;
-    background-color: rgb(52, 52, 196);
+    text-align: center;
+}
+
+.meeting p {
+    font-size: 1.7rem;
+    margin: 20px auto;
+
+}
+
+.meeting-description {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.meeting button {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: rgb(100, 100, 100);
+    color:  rgb(100, 100, 100);
+    border: none;
+}
+
+.meeting-description {
+    color: rgb(124, 124, 124);
+    background-color: rgb(124, 124, 124);
+}
+
+.coming-next {
+    color:  rgb(136, 136, 136);
+    background-color: rgb(136, 136, 136);
+    width: 20%;
+    margin: 0 auto;
 }
 
 .week-person,
@@ -199,8 +237,29 @@ nav ul li button {
 .week-person {
     height: 300px;
     margin-bottom: 10px;
+    display: flex;
+    align-items: center;
 }
 
+
+.week-person-image{
+    float: left;
+    width: 200px;
+    height: 130px;
+    background: rgb(92, 92, 92);
+    margin: 0px 50px 0px 100px;
+}
+
+.week-person-description {
+    width: 45%;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+.week-person-description span {
+    background-color: rgb(138, 138, 138);
+    color: rgb(138, 138, 138);
+
+}
 .community-link {
     height: 800px;
 }
@@ -220,6 +279,14 @@ nav ul li button {
     width: 90%;
     background: red;
     margin: 0 auto;
+}
+
+.conf {
+    color: rgb(80, 80, 80);
+    background-color:  rgb(80, 80, 80);
+    width: 40%;
+    margin: 0 auto;
+    font-size: 2rem;
 }
 
 /* FOOTER */
