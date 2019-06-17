@@ -1,0 +1,60 @@
+html,
+header,
+body,
+nav,
+div {
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(148, 148, 148);
+    height: 6.9375em;
+    margin-top: 0;
+}
+
+
+.intro-article::after {
+   content: "";
+   display: table;
+   clear: both; 
+}
+
+.article {
+    height: 400px;
+    width: 50%;
+    float: left;
+}
+.article2,
+.article4 {
+    /* background-color: rgb(126, , 126); */
+    background-color: red;
+}
+.article1,
+.article3 {
+    background-color: rgb(112, 112, 112);
+
+}
+
+.article3,
+.article4 {
+    margin-top: 5px;
+}
+
+
+.latest-post {
+    background: teal;
+    height: 450px;
+}
+
+
+.latest-articles {
+    background-color: peru;
+    height: 600px;
+    margin-bottom: 5px;
+}
+
+
+.meeting {
+    height: 400px;
+    background-color: rgb(52, 52, 196);
+}
