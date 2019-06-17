@@ -7,7 +7,9 @@ p,
 a,
 h1,
 h2,
-h3 {
+h3,
+ul,
+li {
     margin: 0;
     padding: 0;
 }
@@ -21,11 +23,54 @@ main  {
     background-color: rgb(240, 234, 234);
 }
 
+nav ul li {
+    float: left;
+    margin: 10px 20px;
+    list-style-type: none;
+    font-size: 30px;
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    color: white;
+
+}
+
+nav ul li:first-child {
+    margin-left: 50px;
+}
+
+.bottom-title {
+    color: white;
+    font-size: 18px;
+    font-family: font-family: 'Roboto', sans-serif;
+
+}
+
+nav ul li button {
+    border: 4px solid white;
+    border-radius: 3px;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 25px;
+    padding: 10px 15px;
+    color: white;
+}
+
 
 .intro-article::after {
    content: "";
    display: table;
    clear: both; 
+}
+
+.intro-title {
+    position: absolute;
+    background-color: white;
+    text-align: center;
+    top: 150px;
+    font-family: 'Bree Serif', serif;
+    font-size: 25px;
+    left: 42%;
+
 }
 
 .article {
