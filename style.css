@@ -7,7 +7,9 @@ p,
 a,
 h1,
 h2,
-h3 {
+h3,
+ul,
+li {
     margin: 0;
     padding: 0;
 }
@@ -21,6 +23,38 @@ main  {
     background-color: rgb(240, 234, 234);
 }
 
+nav ul li {
+    float: left;
+    margin: 10px 20px;
+    list-style-type: none;
+    font-size: 30px;
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    color: white;
+
+}
+
+nav ul li:first-child {
+    margin-left: 50px;
+}
+
+.bottom-title {
+    color: white;
+    font-size: 18px;
+    font-family: font-family: 'Roboto', sans-serif;
+
+}
+
+nav ul li button {
+    border: 4px solid white;
+    border-radius: 3px;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 25px;
+    padding: 10px 15px;
+    color: white;
+}
+
 
 .intro-article::after {
    content: "";
@@ -28,8 +62,39 @@ main  {
    clear: both; 
 }
 
+.intro-title {
+    position: absolute;
+    background-color: white;
+    text-align: center;
+    top: 150px;
+    font-family: 'Bree Serif', serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(51, 50, 50);
+    left: 41%;
+    padding: 10px;
+
+}
+
+.button-top button {
+    position: absolute;
+    top: 155px;
+    right: 8%;
+    color: white;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.button-top button:hover {
+    background-color: white;
+    cursor: pointer;
+    color: rgb(51, 50, 50);
+}
+
 .article {
-    height: 400px;
+    height: 700px;
     width: 50%;
     float: left;
 }
@@ -38,9 +103,8 @@ main  {
 
 }
 
-
-
-.article2 {
+.article2,
+.button-top button {
     /* background-color: rgb(126, , 126); */
     background-color: rgb(110, 108, 108);
 }
@@ -55,6 +119,34 @@ main  {
 
 }
 
+.article-title1, .article-title2 {
+    position: absolute;
+    top: 350px;
+}
+
+.article-title3, .article-title4 {
+    position: absolute;
+    top: 1000px;
+}
+
+.article-title1, .article-title3 {
+    position: absolute;
+    left: 100px;
+}
+
+.article-title2, .article-title4 {
+    position: absolute;
+    left: 60%;
+}
+
+.article-title1,
+.article-title2,
+.article-title3,
+.article-title4 {
+    font-size: 44px;
+    color: white;
+    font-family: 'Bree Serif', serif;
+}
 
 
 
@@ -84,6 +176,7 @@ main  {
     height: 550px;
 }
 
+
 .latest1 {
     background-color: rgb(141, 138, 138);
 }
@@ -96,14 +189,102 @@ main  {
     background-color: rgb(161, 159, 159);
 }
 
-
-
 .supporters {
     background-color: rgb(95, 94, 94);
-    width: 300px;
-    height: 150px;
+    width: 350px;
+    height: 180px;
     margin: 20px;
     border-radius: 10px;
+}
+
+
+.latest-time {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    word-spacing: 2px;
+}
+
+.friends {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    word-spacing: 2px;
+    font-style: italic;
+}
+
+
+.latest-title {
+    margin-bottom: 15px;
+    margin-left: 13px;
+    padding: 10px;
+    font-family: 'Bree Serif', serif;
+    font-size: 30px;
+}
+
+.latest-author {
+    margin-left: 13px;
+    padding: 10px;
+    font-family: 'Bree Serif', serif;
+    font-size: 16px;
+    color: rgb(51, 50, 50);
+
+}
+
+.latest-post p {
+    margin-top: 15px;
+    margin-left: 13px;
+    padding: 10px;
+    font-family: 'Roboto', serif;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.latest-post a {
+    color: black;
+}
+
+.latest-author a {
+    color: rgb(51, 50, 50);
+}
+
+
+.supporter-name {
+    display: inline-block;
+    margin-left: 32%;
+    margin-top: 10px;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
+.supporters p{
+  font-size: 16px;
+  color: white;
+  margin-top: -5px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.supporters button {
+    margin-top: 15px;
+    background-color: rgb(54,50,50);
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: white;
+
+}
+
+.supporters button:hover {
+    background-color: white;
+    color: rgb(54,50,50);
+    cursor: pointer;
 }
 
 
