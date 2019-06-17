@@ -217,13 +217,107 @@ main  {
 }
 .community-link {
     height: 800px;
+    padding: 100px;
 }
+
+.community {
+    float: left;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height: 223px;
+    
+}
+
+.community .picture {
+    width: 80px;
+    height: 75px;
+    background-color:rgb(110, 110, 110)
+}
+
+.community .text {
+    width: 70%;
+}
+.text p {
+    display: inline;
+    color: rgb(141, 141, 141);
+}
+
+.text .share {
+    margin-bottom: 20px;
+    color: rgb(156, 156, 156);
+    background: rgb(156, 156, 156);
+}
+
+.text .description {
+    color: rgb(133, 131, 131);
+    background-color: rgb(133, 131, 131);
+}
+
+.text h3 {
+    font-size: 2rem;
+    margin: 25px auto;
+    color: rgb(133, 131, 131);
+    background: rgb(133, 131, 131);
+}
+
 
 .smashing-book {
-    height: 350px;
-    background-color: red;
+    height: 400px;
+    background-color: rgb(192, 192, 192);
 }
 
+.smashing-book::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.smashing-text {
+    width: 60%;
+    float: left;
+}
+.book-container {
+    float: right;
+    width: 34%;
+    height: 400px;
+}
+.book-container img {
+    width: 35%;
+    position: relative;
+    top: -30px;
+    display: block;
+    margin: 0 auto;
+}
+
+.smashing-text {
+    padding: 65px 0 0 100px;
+}
+
+.smashing-text span {
+    font-size: 1.2rem;
+}
+
+.smashing-text h2 {
+    width: 500px;
+    margin: 10px 0 30px 0;
+    font-size: 3rem;
+    color: rgb(66, 66, 66);
+    background-color: rgb(66, 66, 66);
+}
+.smashing-text p {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    color: rgb(133, 131, 131);
+    background-color: rgb(133, 131, 131);
+}
+
+.smashing-text button {
+    padding: 20px 15px;
+    font-size: 2rem;
+    border-radius: 10px;
+}
 .curated-post {
     height: 800px;
     background-color: lightgray;
