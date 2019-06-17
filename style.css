@@ -2,7 +2,12 @@ html,
 header,
 body,
 nav,
-div {
+div,
+p,
+a,
+h1,
+h2,
+h3 {
     margin: 0;
     padding: 0;
 }
@@ -24,26 +29,77 @@ header{
     width: 50%;
     float: left;
 }
-.article2,
-.article4 {
+.article1 {
+    background-color: rgb(105, 104, 104);
+
+}
+
+
+
+.article2 {
     /* background-color: rgb(126, , 126); */
-    background-color: red;
+    background-color: rgb(110, 108, 108);
 }
-.article1,
+
 .article3 {
-    background-color: rgb(112, 112, 112);
+        background-color: rgb(129, 127, 127);
+    
+    }
 
-}
-
-.article3,
 .article4 {
-    margin-top: 5px;
+    background-color: rgb(138, 138, 138);
+
 }
+
+
 
 
 .latest-post {
-    background: teal;
-    height: 450px;
+    background: lightgray;
+    height: 550px;
+}
+
+.latest-post:after {
+    content: "";
+    display:block;
+    clear: both;
+    overflow: hidden;
+}
+
+.latest1,
+.latest2,
+.latest3,
+.supporters {
+    float: left;
+    width: 25%;
+}
+
+.latest1,
+.latest2,
+.latest3 {
+    height: 550px;
+}
+
+.latest1 {
+    background-color: rgb(141, 138, 138);
+}
+
+.latest2 {
+    background-color: rgb(148, 145, 145);
+}
+
+.latest3 {
+    background-color: rgb(161, 159, 159);
+}
+
+
+
+.supporters {
+    background-color: rgb(95, 94, 94);
+    width: 300px;
+    height: 150px;
+    margin: 20px;
+    border-radius: 10px;
 }
 
 
@@ -57,4 +113,43 @@ header{
 .meeting {
     height: 400px;
     background-color: rgb(52, 52, 196);
+}
+
+.week-person,
+.community-link {
+    background-color: white;
+}
+
+.week-person {
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+.community-link {
+    height: 800px;
+}
+
+.smashing-book {
+    height: 350px;
+    background-color: red;
+}
+
+.curated-post {
+    height: 800px;
+    background-color: lightgray;
+}
+
+.smashing-newsletter {
+    height: 700px;
+    width: 90%;
+    background: red;
+    margin: 0 auto;
+}
+
+/* FOOTER */
+
+footer {
+    height: 800px;
+    background-color: red;
+    margin-top: 10px;
 }
