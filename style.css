@@ -24,6 +24,7 @@ header{
 
 body  {
     background-color: rgb(240, 234, 234);
+    min-width: 1770px;
     
 }
 
@@ -36,6 +37,9 @@ nav ul li {
     font-family: 'Bree Serif', serif;
     text-align: center;
     color: white;
+}
+nav {
+    min-width: 1500px;
 }
 
 
