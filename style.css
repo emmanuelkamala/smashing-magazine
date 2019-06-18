@@ -402,10 +402,14 @@ nav ul li button {
 
 }
 .community-link {
-    height: 800px;
     padding: 100px;
 }
 
+.community-link:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 .community {
     float: left;
     width: 50%;
@@ -510,10 +514,16 @@ nav ul li button {
     color: white;
 }
 
+.smashing-text span {
+    color: rgb(163, 163, 163);
+    background-color:  rgb(163, 163, 163);
+}
+
 .smashing-text button {
     padding: 20px 15px;
     font-size: 1.5rem;
     border-radius: 10px;
+    background: rgb(110,110,110);
 }
 
 .smashing-text button a{
@@ -526,15 +536,45 @@ nav ul li button {
 
 
 .curated-post {
-    height: 800px;
-    background-color: lightgray;
+    padding-top: 100px;
 }
+.curated-post::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.guide {
+    float: left;
+    width: 23%;
+    margin-left: 15px;
+
+}
+.guide h2 {
+    font-size: 2em;
+    width: 85%;
+    margin: 0px auto;
+}
+.guide ul {
+
+    width: 80%;
+    font-size: 1.5em;
+    line-height: 1.7;
+    margin: 40px auto;
+}
+
 
 .smashing-newsletter {
     height: 700px;
     width: 90%;
     background: red;
+    margin: auto;
+}
+
+.smashing-newsletter .wrapper {
+    width: 50%;
     margin: 0 auto;
+    padding: 100px 0;
 }
 
 .conf {
