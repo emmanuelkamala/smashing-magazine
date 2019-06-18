@@ -696,21 +696,20 @@ footer {
 }
 
 .footer3 {
-    margin-top: 50px;
+    width: 32%;
+    margin: 50px auto;
+    text-align: center;
 }
 
-.footer3-top ul li, .footer3-bottom ul li{
-    float: left;
-    list-style-type: none;
-    text-align: center;
-    margin: 20px;
-    font-size: 20px;
+.footer3 ul li {
+    display: inline-block;
+    margin: 15px;
+    font-size: 1.1em;
     
 }
 
-.footer3-top:after {
-    content: "";
-    display: block;
-    clear: both;
-    overflow: hidden;
+.footer3 ul li a {
+    color: white;
 }
+
+
