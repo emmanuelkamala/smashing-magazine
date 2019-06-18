@@ -37,9 +37,6 @@ nav ul li {
     color: white;
 }
 
-nav ul li a:hover {
-    color: black;
-}
 
 nav ul li:first-child {
     margin-left: 20px;
@@ -127,10 +124,11 @@ nav ul li button {
 
 }
 
-.article-title1, .article-title2 {
+.article-title1, .article-title2{
     position: absolute;
-    top: 350px;
+    top: 380px;
 }
+
 
 .article-title3, .article-title4 {
     position: absolute;
@@ -399,7 +397,7 @@ nav ul li button {
 .meeting-image img { 
     width: 60%;
     
-    filter: grayscale(90%);
+    filter: grayscale(100%);
 }
 
 .coming-next {
@@ -420,7 +418,6 @@ nav ul li button {
 
 .week-person {
     height: 400px;
-    margin-bottom: 10px;
     padding-top: 50px;
     
     
@@ -436,10 +433,17 @@ nav ul li button {
 
 .week-person-image{
     float: left;
-    width: 200px;
-    height: 130px;
+    width: 170px;
+    height: 170px;
     background: rgb(92, 92, 92);
-    margin: 0 20px 0 100px;
+    margin: 100px 20px 0 100px;
+    transform: rotate(160deg);
+
+}
+
+.week-person-image:hover {
+   transform: rotate(180deg);
+   transition-delay: 0.4s;
 }
 
 .week-person-description {
@@ -449,17 +453,19 @@ nav ul li button {
 }
 
 
-.week-person-description span {
+.week-person-description .paragraph {
     font-family: 'Roboto', 'serif';
     font-size: 20px;
+    background-color: rgb(141, 140, 140);
 
 }
 
-.week-person-title span {
+.week-person-title {
     display: inline-block;
-    margin-bottom: 15px;
-    text-align: center;
+    margin-bottom: 25px;
     font-family: 'Roboto', 'serif';
+    font-size: 14px;
+    background-color: rgb(163, 162, 162);
     
 }
 
@@ -486,8 +492,16 @@ nav ul li button {
 .community .picture {
     width: 80px;
     height: 75px;
-    background-color:rgb(110, 110, 110)
+    background-color:rgb(110, 110, 110);
+    transform: rotate(160deg);
+    margin-top: 20px;
 }
+
+.community .picture:hover {
+    transform: rotate(180deg);
+    transition-delay: 0.4s;
+}
+
 
 .community .text {
     width: 70%;
@@ -497,10 +511,15 @@ nav ul li button {
     color: rgb(141, 141, 141);
 }
 
+.text a {
+    color: rgb(54,50,50);
+}
+
 .text .share {
     margin-bottom: 10px;
     color: rgb(60, 55, 52);
     font-family: 'Bree Serif', 'Serif';
+    background-color: rgb(151, 150, 150);
    
 }
 
@@ -508,6 +527,7 @@ nav ul li button {
     color: rgb(133, 131, 131);
     font-family: 'Roboto', 'San-serif';
     font-size: 18px;
+    background-color: rgb(163, 162, 162);
 }
 
 .text h3 {
@@ -515,7 +535,12 @@ nav ul li button {
     margin: 25px auto;
     color: rgb(51, 50, 50);
     font-family: 'Bree Serif', 'Serif';
+    background-color: rgb(100, 100, 100);
     
+}
+
+.community-date {
+    font-size: 14px;
 }
 
 
