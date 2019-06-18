@@ -298,7 +298,7 @@ nav ul li button {
 
 .latest-articles {
    
-    height: 600px;
+    height: 700px;
     margin: 25px auto;
     
 }
@@ -313,7 +313,7 @@ nav ul li button {
 .latest-article2,
 .latest-article3 {
     float: left;
-    height: 580px;
+    height: 680px;
 }
 
 .latest-article1 {
@@ -321,6 +321,12 @@ nav ul li button {
     width: 48%;
     margin: 15px;
     border-radius: 5px;
+}
+
+.latest-article1-image {
+    width: 20%;
+    
+    filter: grayscale(90%);
 }
 
 .latest-article2,
@@ -337,40 +343,73 @@ nav ul li button {
 }
 
 .meeting {
-    height: 400px;
+    height: 1000px;
     text-align: center;
+    background-color: rgb(110, 110, 110);
+    padding-top: 30px;
 }
 
-.meeting p {
-    font-size: 1.7rem;
+.conf {
+    color: white;
+    width: 40%;
+    margin: 0 auto;
+    font-size: 3rem;
+    font-family: 'Bree Serif', 'Serif';
+}
+
+
+.meeting-description {
+    font-size: 1.5rem;
     margin: 20px auto;
+    color: white;
+    font-family: 'Roboto', 'San-serif';
 
 }
 
 .meeting-description {
-    width: 60%;
-    margin: 0 auto;
+    width: 55%;
+    padding-bottom: 20px;
+
 }
 
 .meeting button {
     font-size: 1.5rem;
-    margin-top: 20px;
-    padding: 10px 0;
-    background-color: rgb(100, 100, 100);
+    margin-top: 20px 0;
+    padding: 15px;
+    background-color: white;
     color:  rgb(100, 100, 100);
-    border: none;
+    border-radius: 10px;
 }
 
-.meeting-description {
-    color: rgb(124, 124, 124);
-    background-color: rgb(124, 124, 124);
+.meeting button a {
+    text-decoration: none;
+    color: rgb(105, 104, 104);
+}
+
+
+.meeting button a:hover {
+    color: black;
+}
+
+
+.meeting-image {
+    padding-top: 40px;
+}
+
+.meeting-image img { 
+    width: 60%;
+    
+    filter: grayscale(90%);
 }
 
 .coming-next {
-    color:  rgb(136, 136, 136);
-    background-color: rgb(136, 136, 136);
+    color: white;
+    font-size: 14px;
     width: 20%;
-    margin: 0 auto;
+    margin: 15px auto;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Roboto', 'San-serif';
 }
 
 .week-person,
@@ -440,6 +479,7 @@ nav ul li button {
     justify-content: space-evenly;
     align-items: flex-start;
     height: 223px;
+    margin-bottom: 35px;
     
 }
 
@@ -458,21 +498,24 @@ nav ul li button {
 }
 
 .text .share {
-    margin-bottom: 20px;
-    color: rgb(156, 156, 156);
-    background: rgb(156, 156, 156);
+    margin-bottom: 10px;
+    color: rgb(60, 55, 52);
+    font-family: 'Bree Serif', 'Serif';
+   
 }
 
 .text .description {
     color: rgb(133, 131, 131);
-    background-color: rgb(133, 131, 131);
+    font-family: 'Roboto', 'San-serif';
+    font-size: 18px;
 }
 
 .text h3 {
     font-size: 2rem;
     margin: 25px auto;
-    color: rgb(133, 131, 131);
-    background: rgb(133, 131, 131);
+    color: rgb(51, 50, 50);
+    font-family: 'Bree Serif', 'Serif';
+    
 }
 
 
@@ -493,14 +536,20 @@ nav ul li button {
 }
 .book-container {
     float: right;
-    width: 34%;
+    width: 30%;
     height: 400px;
+}
+
+.book-container::after {
+    content: "";
+    display: block;
+    clear: both;
 }
 
 .book-container img {
     width: 35%;
     position: relative;
-    top: -410px;
+    /*top: -410px;*/
     display: block;
     margin: 0 auto;
     transform: rotate(345deg);
@@ -560,9 +609,14 @@ nav ul li button {
 
 
 .curated-post {
+    margin: 0;
     padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 
 }
+
 .curated-post::after {
   content: "";
   display: table;
@@ -570,11 +624,9 @@ nav ul li button {
 }
 
 .guide {
-    float: left;
-    width: 26%;
-   
-
+    width: 25%;
 }
+
 .guide h2 {
     font-size: 1.8em;
     width: 80%;
@@ -586,12 +638,14 @@ nav ul li button {
     width: 80%;
     font-size: 1.4em;
     line-height: 1.7;
-    margin: 40px auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 80px;
     font-family: 'Roboto', 'serif';
 }
 
-.guide ul li {
-   
+.guide ul a {
+    color: #006fc6;
 }
 
 
@@ -632,13 +686,7 @@ nav ul li button {
     font-size: 3em;
 }
 
-.conf {
-    color: rgb(80, 80, 80);
-    background-color:  rgb(80, 80, 80);
-    width: 40%;
-    margin: 0 auto;
-    font-size: 2rem;
-}
+
 
 /* FOOTER */
 
