@@ -58,6 +58,8 @@ nav ul li button {
     margin-left: 25px;
     padding: 10px 15px;
     color: white;
+    background: rgb(100,100,100);
+
 }
 
 
@@ -287,6 +289,8 @@ nav ul li button {
     border-radius: 5px;
     font-size: 14px;
     color: white;
+    margin: 0 auto;
+    display: block;
 
 }
 
@@ -327,6 +331,8 @@ nav ul li button {
 .latest-article1-description {
     width: 70%;
     text-align: center;
+    font-size: 1.5em;
+    margin: 20px auto;
 }
 .latest-article1 button {
     display: block;
@@ -350,9 +356,7 @@ nav ul li button {
     width: 40%;
     filter: grayscale(100%);
 }
-.article-description {
 
-}
 .latest-article2,
 .latest-article3 {
     width: 25%;
@@ -617,6 +621,7 @@ nav ul li button {
 
 .smashing-text span {
     font-size: 1.2rem;
+    background-color: rgb(175, 175, 175);
 }
 
 .design-title {
@@ -625,10 +630,12 @@ nav ul li button {
     font-size: 3rem;
     color: white;
     font-family: 'Bree Serif', serif;
+    background: rgb(110,110,110);
 }
 .smashing-text p {
     font-size: 1.4rem;
     margin-bottom: 20px;
+    background-color: rgb(135,135,135);
     color: white;
     font-family: 'Roboto', serif;
 }
@@ -647,11 +654,12 @@ nav ul li button {
     padding: 20px 15px;
     font-size: 1.5rem;
     border-radius: 10px;
-    background: rgb(110,110,110);
+    background: rgb(155,155,155);
 }
 
 .smashing-text button a{
     text-decoration: none;
+    color: white;
 }
 
 .smashing-text button a:hover {
@@ -772,7 +780,7 @@ nav ul li button {
 /* FOOTER */
 
 footer {
-    height: 800px;
+    height: 620x;
     background-color: rgb(200, 200, 200);
  
     padding: 20px;
