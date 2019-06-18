@@ -27,12 +27,15 @@ body  {
     
 }
 
+nav {
+    min-width: 1500px;
+}
+
 nav ul li {
     float: left;
-    margin: 10px 20px;
+    margin: 10px 15px;
     width: 12%;
     list-style-type: none;
-    font-size: 30px;
     font-family: 'Bree Serif', serif;
     text-align: center;
     color: white;
@@ -45,7 +48,6 @@ nav ul li:first-child {
 
 .bottom-title {
     color: white;
-    font-size: 18px;
     font-family:'Roboto', sans-serif;
 
 }
@@ -53,7 +55,6 @@ nav ul li:first-child {
 nav ul li button {
     border: 4px solid white;
     border-radius: 3px;
-    font-size: 25px;
     margin-top: 10px;
     margin-left: 25px;
     padding: 10px 15px;
@@ -76,7 +77,6 @@ nav ul li button {
     text-align: center;
     top: 150px;
     font-family: 'Bree Serif', serif;
-    font-size: 25px;
     font-weight: bold;
     color: rgb(51, 50, 50);
     left: 41%;
@@ -90,7 +90,6 @@ nav ul li button {
     right: 8%;
     color: white;
     border-radius: 15px;
-    font-size: 18px;
     font-weight: bold;
     padding: 10px;
 }
@@ -153,7 +152,6 @@ nav ul li button {
 .article-title2,
 .article-title3,
 .article-title4 {
-    font-size: 44px;
     color: white;
     font-family: 'Bree Serif', serif;
 }
@@ -213,7 +211,6 @@ nav ul li button {
     margin-top: 30px;
     margin-left: 25px;
     margin-bottom: 10px;
-    font-size: 12px;
     word-spacing: 2px;
 }
 
@@ -222,7 +219,6 @@ nav ul li button {
     margin-top: 30px;
     margin-left: 25px;
     margin-bottom: 10px;
-    font-size: 14px;
     word-spacing: 2px;
     font-style: italic;
 }
@@ -233,14 +229,12 @@ nav ul li button {
     margin-left: 13px;
     padding: 10px;
     font-family: 'Bree Serif', serif;
-    font-size: 30px;
 }
 
 .latest-author {
     margin-left: 13px;
     padding: 10px;
     font-family: 'Bree Serif', serif;
-    font-size: 16px;
     color: rgb(51, 50, 50);
 
 }
@@ -251,7 +245,6 @@ nav ul li button {
     margin-left: 13px;
     padding: 10px;
     font-family: 'Roboto', serif;
-    font-size: 18px;
     line-height: 30px;
 }
 
@@ -268,13 +261,11 @@ nav ul li button {
     display: inline-block;
     margin-left: 32%;
     margin-top: 10px;
-    font-size: 25px;
     text-align: center;
     color: white;
 }
 
 .supporters p{
-  font-size: 16px;
   color: white;
   margin-top: -5px;
   line-height: 20px;
@@ -287,7 +278,6 @@ nav ul li button {
     text-align: center;
     padding: 10px;
     border-radius: 5px;
-    font-size: 14px;
     color: white;
     margin: 0 auto;
     display: block;
@@ -331,7 +321,6 @@ nav ul li button {
 .latest-article1-description {
     width: 70%;
     text-align: center;
-    font-size: 1.5em;
     margin: 20px auto;
 }
 .latest-article1 button {
@@ -343,11 +332,12 @@ nav ul li button {
 }
 .latest-article1 button a {
     text-decoration: none;
-    font-size: 1.5em;
+
 
 }
+
+
 .latest-article1-title {
-    font-size: 50px;
     width: 60%;
     text-align: center;
 }
@@ -381,13 +371,11 @@ nav ul li button {
     color: white;
     width: 40%;
     margin: 0 auto;
-    font-size: 3rem;
     font-family: 'Bree Serif', 'Serif';
 }
 
 
 .meeting-description {
-    font-size: 1.5rem;
     margin: 20px auto;
     color: white;
     font-family: 'Roboto', 'San-serif';
@@ -401,7 +389,6 @@ nav ul li button {
 }
 
 .meeting button {
-    font-size: 1.5rem;
     margin-top: 20px 0;
     padding: 15px;
     background-color: white;
@@ -432,7 +419,6 @@ nav ul li button {
 
 .coming-next {
     color: white;
-    font-size: 14px;
     width: 20%;
     margin: 15px auto;
     text-transform: uppercase;
@@ -478,14 +464,12 @@ nav ul li button {
 
 .week-person-description {
     width: 45%;
-    font-size: 1.5rem;
     line-height: 1.5;
 }
 
 
 .week-person-description .paragraph {
     font-family: 'Roboto', 'serif';
-    font-size: 20px;
     background-color: rgb(141, 140, 140);
 
 }
@@ -494,7 +478,6 @@ nav ul li button {
     display: inline-block;
     margin-bottom: 25px;
     font-family: 'Roboto', 'serif';
-    font-size: 14px;
     background-color: rgb(163, 162, 162);
     
 }
@@ -556,12 +539,10 @@ nav ul li button {
 .text .description {
     color: rgb(133, 131, 131);
     font-family: 'Roboto', 'San-serif';
-    font-size: 18px;
     background-color: rgb(163, 162, 162);
 }
 
 .text h3 {
-    font-size: 2rem;
     margin: 25px auto;
     color: rgb(51, 50, 50);
     font-family: 'Bree Serif', 'Serif';
@@ -569,9 +550,6 @@ nav ul li button {
     
 }
 
-.community-date {
-    font-size: 14px;
-}
 
 
 .smashing-book {
@@ -620,20 +598,17 @@ nav ul li button {
 }
 
 .smashing-text span {
-    font-size: 1.2rem;
     background-color: rgb(175, 175, 175);
 }
 
 .design-title {
     width: 500px;
     margin: 10px 0 30px 0;
-    font-size: 3rem;
     color: white;
     font-family: 'Bree Serif', serif;
     background: rgb(110,110,110);
 }
 .smashing-text p {
-    font-size: 1.4rem;
     margin-bottom: 20px;
     background-color: rgb(135,135,135);
     color: white;
@@ -652,7 +627,6 @@ nav ul li button {
 
 .smashing-text button {
     padding: 20px 15px;
-    font-size: 1.5rem;
     border-radius: 10px;
     background: rgb(155,155,155);
 }
@@ -703,15 +677,13 @@ nav ul li button {
 }
 
 .guide h2 {
-    font-size: 1.8em;
     width: 80%;
     margin: 0 auto;
     font-family: 'Bree Serif', 'serif';
 }
-.guide ul {
 
+.guide ul {
     width: 80%;
-    font-size: 1.4em;
     line-height: 1.7;
     margin-top: 40px;
     margin-bottom: 40px;
@@ -739,10 +711,12 @@ nav ul li button {
     padding: 50px 0;
     text-align: center;
 }
+
 .smashing-newsletter .wrapper p {
     margin: 40px auto;
-    font-size: 1.4em;
 }
+
+
 .smashing-newsletter button {
     padding: 10px;
 }
@@ -759,7 +733,6 @@ nav ul li button {
 
 .smashing-newsletter h2 {
     margin: 25px auto;
-    font-size: 3em;
     background: rgb(100,100,100);
 
 }
@@ -780,7 +753,7 @@ nav ul li button {
 /* FOOTER */
 
 footer {
-    height: 620x;
+    height: 620px;
     background-color: rgb(200, 200, 200);
  
     padding: 20px;
@@ -792,7 +765,6 @@ footer {
     background-color: rgb(175, 175, 175);
     text-align: center;
     color: white;
-    font-size: 16px;
     font-family: 'Roboto', 'San-serif';
 }
 
@@ -807,7 +779,6 @@ footer {
 .footer1 ul li {
 
     margin-right: 10px;
-    font-size: 23px;
     font-family: 'Roboto', 'San-serif';
     line-height: 37px;
     display: inline-block;
@@ -859,7 +830,6 @@ footer {
     text-align: center;
     color: white;
     line-height: 30px;
-    font-size: 20px;
     font-family: 'Roboto', 'San-serif';
     width: 35%;
     margin: 0 auto;
@@ -880,7 +850,6 @@ footer {
 .footer3 ul li {
     display: inline-block;
     margin: 15px;
-    font-size: 1.1em;
     
 }
 
