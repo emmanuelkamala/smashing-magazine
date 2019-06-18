@@ -565,16 +565,40 @@ nav ul li button {
 
 
 .smashing-newsletter {
-    height: 700px;
+    height: 900px;
     width: 90%;
-    background: red;
+    background: rgb(207, 207, 207);
+    border-radius: 10px;
     margin: auto;
 }
 
 .smashing-newsletter .wrapper {
-    width: 50%;
+    width: 65%;
     margin: 0 auto;
-    padding: 100px 0;
+    padding: 50px 0;
+    text-align: center;
+}
+.smashing-newsletter .wrapper p {
+    margin: 40px auto;
+    font-size: 1.4em;
+}
+.smashing-newsletter button {
+    padding: 10px;
+}
+
+.smashing-newsletter input {
+    padding: 10px;
+}
+.smashing-newsletter img {
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.smashing-newsletter h2 {
+    margin: 25px auto;
+    font-size: 3em;
 }
 
 .conf {
@@ -589,7 +613,7 @@ nav ul li button {
 
 footer {
     height: 800px;
-    background-color: rgb(133, 131, 131);
+    background-color: rgb(184, 184, 184);
     margin-top: 10px;
     padding: 20px;
 }
@@ -603,31 +627,56 @@ footer {
 }
 
 .footer1 {
-  width: fit-content;
+  width: 90%;
   margin: 0 auto;
+  
 }
 
 
 .footer1 ul li {
-    float: left;
+
     margin-right: 10px;
     font-size: 23px;
     font-family: 'Roboto', 'San-serif';
     line-height: 37px;
+    display: inline-block;
+
     
     
 }
 
+.footer1 ul li::before {
+    display: inline-block;
+    position: relative;
+    bottom: 3px;
+    content: '';
+    border-radius: 5px;
+    height: 8px;
+    width: 8px;
+    background-color:rgb(100, 100, 100);
+    margin-right: 8px;
+}
+
+
+
+
+.footer1 ul {
+    display: table;
+    margin: auto;
+    text-align: center;
+
+}
 .footer1 ul li a {
     color: white;
+    text-decoration: none;
 }
 
-.footer1:after {
+/* .footer1 ul:after {
     content:"";
     display: list-item;
     clear: both;
     overflow: hidden;
-}
+} */
 
 
 .footer2 {
