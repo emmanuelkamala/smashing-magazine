@@ -4,4 +4,4 @@ This is a design teardown of the smashing magazine homepage. The task for the pr
 Emmanuel J. Kamala (<a href="https://github.com/emmanuelkamala">@emmanuelkamala</a>)<br>
 Mouhamadou Diouf (<a href="https://github.com/mouhadiouf">@mouhadiouf</a>)
 # Live Version
-https://raw.githack.com/emmanuelkamala/smashing-magazine/development/index.html
+https://emmanuelkamala.github.io/smashing-magazine/
