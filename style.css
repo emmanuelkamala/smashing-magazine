@@ -1,0 +1,953 @@
+html,
+header,
+body,
+nav,
+div,
+p,
+a,
+h1,
+h2,
+h3,
+ul,
+li {
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+
+header{
+    background-color: rgb(80, 80, 80);
+    height: 6.9375em;
+    margin-top: 0;
+}
+
+body  {
+    background-color: rgb(240, 234, 234);
+    min-width: 1500px;
+    
+}
+
+.footer-title, 
+.bottom-title, 
+.latest-author, 
+.supporters p {
+    font-size: 16px;
+} 
+
+.footer2 p, 
+.week-person-description 
+.paragraph {
+    font-size: 20px;
+}  
+
+.footer3 ul li,
+.smashing-text span {
+    font-size: 18px;
+}  
+
+.smashing-text p, 
+.guide ul, 
+.smashing-newsletter 
+.wrapper p, 
+.footer1 ul li {
+    font-size: 22px;
+} 
+
+.guide h2   {
+    font-size: 28px;
+}
+
+
+
+.latest-article1-description, 
+.latest-article1 button a, 
+.smashing-text button, 
+.meeting-description, 
+.meeting button, 
+.week-person-description, 
+nav ul li button, 
+.intro-title, 
+.supporter-name {
+    font-size: 24px;
+}  
+
+.conf, 
+.design-title, 
+.smashing-newsletter h2, 
+.latest-article1-title {
+    font-size: 48px;
+} 
+
+
+.button-top button, 
+.latest-post p,
+.article-description, 
+.text .description  {
+    font-size: 18px;
+}
+
+.latest-time {
+    font-size: 12px;
+}
+
+.friends, 
+.supporters button, 
+.coming-next, 
+.week-person-title, 
+.community-date {
+    font-size: 14px;
+} 
+
+
+.latest-title, 
+.text h3, 
+nav ul li {
+    font-size: 30px;
+}  
+
+
+.article-title1,
+.article-title2,
+.article-title3,
+.article-title4    {
+    font-size: 44px;
+} 
+
+
+
+nav {
+    min-width: 1200px;
+}
+
+nav ul li {
+    float: left;
+    margin: 10px 15px;
+    width: 12%;
+    list-style-type: none;
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    color: white;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li:first-child {
+    margin-left: 20px;
+}
+
+.bottom-title {
+    color: white;
+    font-family:'Roboto', sans-serif;
+
+}
+
+nav ul li button {
+    border: 4px solid white;
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-left: 25px;
+    padding: 10px 15px;
+    color: white;
+    background: rgb(100,100,100);
+
+}
+
+
+.intro-article::after {
+   content: "";
+   display: table;
+   clear: both; 
+}
+
+.intro-title {
+    position: absolute;
+    background-color: white;
+    background-color: rgb(100,100,100);
+    text-align: center;
+    top: 150px;
+    font-family: 'Bree Serif', serif;
+    font-weight: bold;
+    color: rgb(51, 50, 50);
+    left: 41%;
+    padding: 10px;
+
+}
+
+.button-top button {
+    position: absolute;
+    top: 155px;
+    right: 8%;
+    color: white;
+    border-radius: 15px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.button-top button:hover {
+    background-color: white;
+    cursor: pointer;
+    color: rgb(51, 50, 50);
+    transition-delay: 0.2s;
+}
+
+.article {
+    height: 700px;
+    width: 50%;
+    float: left;
+}
+.article1 {
+    background-color: rgb(100, 100, 100);
+
+}
+
+.article2,
+.button-top button {
+    /* background-color: rgb(126, , 126); */
+    background-color: rgb(110, 110, 110);
+}
+
+.article3 {
+    background-color: rgb(115, 115, 115);
+    
+    }
+
+.article4 {
+    background-color: rgb(138, 138, 138);
+
+}
+
+.article-title1, .article-title2{
+    position: absolute;
+    top: 380px;
+}
+
+
+.article-title3, .article-title4 {
+    position: absolute;
+    top: 1000px;
+}
+
+.article-title1, .article-title3 {
+    position: absolute;
+    left: 100px;
+}
+
+.article-title2, .article-title4 {
+    position: absolute;
+    left: 60%;
+}
+
+.article-title1,
+.article-title2,
+.article-title3,
+.article-title4 {
+    color: white;
+    font-family: 'Bree Serif', serif;
+}
+
+
+
+.latest-post {
+    background: lightgray;
+    height: 550px;
+}
+
+.latest-post:after {
+    content: "";
+    display:block;
+    clear: both;
+    overflow: hidden;
+}
+
+.latest1,
+.latest2,
+.latest3,
+.supporters {
+    float: left;
+    width: 25%;
+}
+
+.latest1,
+.latest2,
+.latest3 {
+    height: 550px;
+}
+
+
+.latest1 {
+    background-color: rgb(130, 130, 130);
+}
+
+.latest2 {
+    background-color: rgb(148, 148, 148);
+}
+
+.latest3 {
+    background-color: rgb(160, 160, 160);
+}
+
+.supporters {
+    background-color: rgb(95, 94, 94);
+    width: 350px;
+    height: 180px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+
+.latest-time {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    word-spacing: 2px;
+}
+
+.friends {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    word-spacing: 2px;
+    font-style: italic;
+}
+
+
+.latest-title {
+    margin-bottom: 15px;
+    margin-left: 13px;
+    padding: 10px;
+    font-family: 'Bree Serif', serif;
+}
+
+.latest-author {
+    margin-left: 13px;
+    padding: 10px;
+    font-family: 'Bree Serif', serif;
+    color: rgb(51, 50, 50);
+
+}
+
+.latest-post p,
+.article-description {
+    margin-top: 15px;
+    margin-left: 13px;
+    padding: 10px;
+    font-family: 'Roboto', serif;
+    line-height: 30px;
+}
+
+.latest-post a {
+    color: black;
+}
+
+.latest-author a {
+    color: rgb(51, 50, 50);
+}
+
+
+.supporter-name {
+    display: inline-block;
+    margin-left: 32%;
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+}
+
+.supporters p{
+  color: white;
+  margin-top: -5px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.supporters button {
+    margin-top: 15px;
+    background-color: rgb(54,50,50);
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    margin: 0 auto;
+    display: block;
+
+}
+
+.supporters button:hover {
+    background-color: white;
+    color: rgb(54,50,50);
+    cursor: pointer;
+}
+
+
+.latest-articles {
+   
+    height: 700px;
+    margin: 25px auto;
+    
+}
+
+.latest-articles:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.latest-article1,
+.latest-article2,
+.latest-article3 {
+    float: left;
+    height: 680px;
+}
+
+.latest-article1 {
+    color: white;
+    background-color: rgb(100, 100, 100);
+    width: 48%;
+    margin: 15px;
+    border-radius: 5px;
+}
+.latest-article1-description {
+    width: 70%;
+    text-align: center;
+    margin: 20px auto;
+}
+.latest-article1 button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.latest-article1 button a {
+    text-decoration: none;
+
+
+}
+
+
+.latest-article1-title {
+    width: 60%;
+    text-align: center;
+}
+
+.latest-article1-image {
+    width: 40%;
+    filter: grayscale(100%);
+}
+
+.latest-article2,
+.latest-article3 {
+    width: 25%;
+}
+
+.latest-article2 {
+    background-color: rgb(143, 142, 142);
+}
+
+.latest-article3 {
+    background-color: rgb(155, 153, 153);
+}
+
+.meeting {
+    height: 1000px;
+    text-align: center;
+    background-color: rgb(110, 110, 110);
+    padding-top: 30px;
+}
+
+.conf {
+    color: white;
+    width: 40%;
+    margin: 0 auto;
+    font-family: 'Bree Serif', 'Serif';
+}
+
+
+.meeting-description {
+    margin: 20px auto;
+    color: white;
+    font-family: 'Roboto', 'San-serif';
+
+}
+
+.meeting-description {
+    width: 55%;
+    padding-bottom: 20px;
+
+}
+
+.meeting button {
+    margin-top: 20px 0;
+    padding: 15px;
+    background-color: white;
+    color:  rgb(100, 100, 100);
+    border-radius: 10px;
+}
+
+.meeting button a {
+    text-decoration: none;
+    color: rgb(105, 104, 104);
+}
+
+
+.meeting button a:hover {
+    color: black;
+}
+
+
+.meeting-image {
+    padding-top: 40px;
+}
+
+.meeting-image img { 
+    width: 60%;
+    
+    filter: grayscale(100%);
+}
+
+.coming-next {
+    color: white;
+    width: 20%;
+    margin: 15px auto;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Roboto', 'San-serif';
+}
+
+.week-person,
+.community-link {
+    background-color: white;
+   
+}
+
+.week-person {
+    height: 400px;
+    padding-top: 50px;
+    
+    
+}
+
+.week-person::after {
+    content: "";
+    display: block;
+    clear: both;
+    overflow: hidden;
+}
+
+
+.week-person-image{
+    float: left;
+    width: 170px;
+    height: 170px;
+    background: rgb(92, 92, 92);
+    margin: 100px 20px 0 100px;
+    transform: rotate(160deg);
+
+}
+
+.week-person-image:hover {
+   transform: rotate(180deg);
+   transition-delay: 0.4s;
+}
+
+.week-person-description {
+    width: 45%;
+    line-height: 1.5;
+}
+
+
+.week-person-description .paragraph {
+    font-family: 'Roboto', 'serif';
+    background-color: rgb(141, 140, 140);
+
+}
+
+.week-person-title {
+    display: inline-block;
+    margin-bottom: 25px;
+    font-family: 'Roboto', 'serif';
+    background-color: rgb(163, 162, 162);
+    
+}
+
+.community-link {
+    padding: 100px;
+}
+
+.community-link:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.community {
+    float: left;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height: 223px;
+    margin-bottom: 35px;
+    
+}
+
+.community .picture {
+    width: 80px;
+    height: 75px;
+    background-color:rgb(110, 110, 110);
+    transform: rotate(160deg);
+    margin-top: 20px;
+}
+
+.community .picture:hover {
+    transform: rotate(180deg);
+    transition-delay: 0.4s;
+}
+
+
+.community .text {
+    width: 70%;
+}
+.text p {
+    display: inline;
+    color: rgb(141, 141, 141);
+}
+
+.text a {
+    color: rgb(54,50,50);
+}
+
+.text .share {
+    margin-bottom: 10px;
+    color: rgb(60, 55, 52);
+    font-family: 'Bree Serif', 'Serif';
+    background-color: rgb(151, 150, 150);
+   
+}
+
+.text .description {
+    color: rgb(133, 131, 131);
+    font-family: 'Roboto', 'San-serif';
+    background-color: rgb(163, 162, 162);
+}
+
+.text h3 {
+    margin: 25px auto;
+    color: rgb(51, 50, 50);
+    font-family: 'Bree Serif', 'Serif';
+    background-color: rgb(100, 100, 100);
+    
+}
+
+
+
+.smashing-book {
+    height: 400px;
+    background-color: rgb(192, 192, 192);
+}
+
+.smashing-book::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.smashing-text {
+    width: 60%;
+    float: left;
+}
+.book-container {
+    float: right;
+    width: 30%;
+    height: 400px;
+}
+
+.book-container::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.book-container img {
+    width: 35%;
+    position: relative;
+    /*top: -410px;*/
+    display: block;
+    margin: 0 auto;
+    transform: rotate(345deg);
+}
+
+.book-container img:hover {
+    transform: rotate(360deg);
+    transition: 0.2s;
+}
+
+.smashing-text {
+    padding: 65px 0 0 100px;
+}
+
+.smashing-text span {
+    background-color: rgb(175, 175, 175);
+}
+
+.design-title {
+    width: 500px;
+    margin: 10px 0 30px 0;
+    color: white;
+    font-family: 'Bree Serif', serif;
+    background: rgb(110,110,110);
+}
+.smashing-text p {
+    margin-bottom: 20px;
+    background-color: rgb(135,135,135);
+    color: white;
+    font-family: 'Roboto', serif;
+}
+
+.featured-smash {
+    font-family: 'Roboto', serif;
+    color: white;
+}
+
+/*.smashing-text span {
+    color: rgb(163, 163, 163);
+    background-color:  rgb(163, 163, 163);
+}*/
+
+.smashing-text button {
+    padding: 20px 15px;
+    border-radius: 10px;
+    background: rgb(155,155,155);
+}
+
+.smashing-text button a{
+    text-decoration: none;
+    color: white;
+}
+
+.smashing-text button a:hover {
+    color: white;
+}
+
+
+.curated-post {
+    margin: 0;
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.curated-post::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.guide {
+    width: 25%;
+}
+
+.guide-one {
+    background-color: rgb(140, 140, 140);
+}
+
+.guide-two {
+    background-color: rgb(150, 150, 150);
+}
+
+.guide-three {
+    background-color: rgb(160, 160, 160)
+}
+
+.guide-four {
+    background-color: rgb(170, 170, 170)
+}
+
+.guide h2 {
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Bree Serif', 'serif';
+}
+
+.guide ul {
+    width: 80%;
+    line-height: 1.7;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 80px;
+    font-family: 'Roboto', 'serif';
+}
+
+.guide ul a {
+    color: #006fc6;
+}
+
+
+.smashing-newsletter {
+    height: 900px;
+    width: 90%;
+    background: rgb(170, 170, 170);
+    border-radius: 10px;
+    margin: 50px auto;
+
+}
+
+.smashing-newsletter .wrapper {
+    width: 65%;
+    margin: 0 auto;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.smashing-newsletter .wrapper p {
+    margin: 40px auto;
+}
+
+
+.smashing-newsletter button {
+    padding: 10px;
+}
+
+.smashing-newsletter input {
+    padding: 10px;
+}
+.smashing-newsletter img {
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.smashing-newsletter h2 {
+    margin: 25px auto;
+    background: rgb(100,100,100);
+
+}
+
+.imagine {
+    background-color: rgb(120,120, 120);
+}
+
+.input-wrapper {
+    width: 37%;
+    background-color: rgb(110,110,110);
+
+}
+.useful-tips {
+    background-color: rgb(140,140,140);
+}
+
+/* FOOTER */
+
+footer {
+    height: 700px;
+    background-color: rgb(200, 200, 200);
+ 
+    padding: 20px;
+}
+
+.footer-title {
+    width: 30%;
+    margin: 50px auto;
+    background-color: rgb(175, 175, 175);
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', 'San-serif';
+}
+
+.footer1 {
+  width: 90%;
+  margin: 0 auto;
+  background-color: rgb(130, 130, 130);
+  
+}
+
+
+.footer1 ul li {
+
+    margin-right: 10px;
+    font-family: 'Roboto', 'San-serif';
+    line-height: 37px;
+    display: inline-block;
+
+    
+    
+}
+
+.footer1 ul li::before {
+    display: inline-block;
+    position: relative;
+    bottom: 3px;
+    content: '';
+    border-radius: 5px;
+    height: 8px;
+    width: 8px;
+    background-color:rgb(100, 100, 100);
+    margin-right: 8px;
+}
+
+
+
+
+.footer1 ul {
+    display: table;
+    margin: auto;
+    text-align: center;
+
+}
+.footer1 ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* .footer1 ul:after {
+    content:"";
+    display: list-item;
+    clear: both;
+    overflow: hidden;
+} */
+
+
+.footer2 {
+    margin-top: 40px;
+}
+
+.footer2 p {
+    background-color: rgb(155,155,155);
+    text-align: center;
+    color: white;
+    line-height: 30px;
+    font-family: 'Roboto', 'San-serif';
+    width: 35%;
+    margin: 0 auto;
+}
+
+.footer2 p a {
+    color: white;
+}
+
+.footer3 {
+    width: 32%;
+    margin: 50px auto;
+    text-align: center;
+}
+.footer3 ul {
+    background-color: rgb(185, 185, 185);
+}
+.footer3 ul li {
+    display: inline-block;
+    margin: 15px;
+    
+}
+
+.footer3 ul li a {
+    color: white;
+}
+
+
