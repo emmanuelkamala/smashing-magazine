@@ -24,12 +24,100 @@ header{
 
 body  {
     background-color: rgb(240, 234, 234);
-    min-width: 1770px;
+    min-width: 1500px;
     
 }
 
+.footer-title, 
+.bottom-title, 
+.latest-author, 
+.supporters p {
+    font-size: 16px;
+} 
+
+.footer2 p, 
+.week-person-description 
+.paragraph {
+    font-size: 20px;
+}  
+
+.footer3 ul li,
+.smashing-text span {
+    font-size: 18px;
+}  
+
+.smashing-text p, 
+.guide ul, 
+.smashing-newsletter 
+.wrapper p, 
+.footer1 ul li {
+    font-size: 22px;
+} 
+
+.guide h2   {
+    font-size: 28px;
+}
+
+
+
+.latest-article1-description, 
+.latest-article1 button a, 
+.smashing-text button, 
+.meeting-description, 
+.meeting button, 
+.week-person-description, 
+nav ul li button, 
+.intro-title, 
+.supporter-name {
+    font-size: 24px;
+}  
+
+.conf, 
+.design-title, 
+.smashing-newsletter h2, 
+.latest-article1-title {
+    font-size: 48px;
+} 
+
+
+.button-top button, 
+.latest-post p,
+.article-description, 
+.text .description  {
+    font-size: 18px;
+}
+
+.latest-time {
+    font-size: 12px;
+}
+
+.friends, 
+.supporters button, 
+.coming-next, 
+.week-person-title, 
+.community-date {
+    font-size: 14px;
+} 
+
+
+.latest-title, 
+.text h3, 
+nav ul li {
+    font-size: 30px;
+}  
+
+
+.article-title1,
+.article-title2,
+.article-title3,
+.article-title4    {
+    font-size: 44px;
+} 
+
+
+
 nav {
-    min-width: 1500px;
+    min-width: 1200px;
 }
 
 nav ul li {
@@ -41,10 +129,11 @@ nav ul li {
     text-align: center;
     color: white;
 }
-nav {
-    min-width: 1500px;
-}
 
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
 
 nav ul li:first-child {
     margin-left: 20px;
