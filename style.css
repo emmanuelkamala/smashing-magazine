@@ -10,9 +10,12 @@ h2,
 h3,
 ul,
 li {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
 }
+
+
+
 header{
     background-color: rgb(148, 148, 148);
     height: 6.9375em;
@@ -21,6 +24,7 @@ header{
 
 main  {
     background-color: rgb(240, 234, 234);
+    
 }
 
 nav ul li {
@@ -91,6 +95,7 @@ nav ul li button {
     background-color: white;
     cursor: pointer;
     color: rgb(51, 50, 50);
+    transition-delay: 0.2s;
 }
 
 .article {
@@ -471,9 +476,15 @@ nav ul li button {
 .book-container img {
     width: 35%;
     position: relative;
-    top: -30px;
+    top: -410px;
     display: block;
     margin: 0 auto;
+    transform: rotate(345deg);
+}
+
+.book-container img:hover {
+    transform: rotate(360deg);
+    transition: 0.2s;
 }
 
 .smashing-text {
@@ -484,18 +495,23 @@ nav ul li button {
     font-size: 1.2rem;
 }
 
-.smashing-text h2 {
+.design-title {
     width: 500px;
     margin: 10px 0 30px 0;
     font-size: 3rem;
-    color: rgb(66, 66, 66);
-    background-color: rgb(66, 66, 66);
+    color: white;
+    font-family: 'Bree Serif', serif;
 }
 .smashing-text p {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     margin-bottom: 20px;
-    color: rgb(133, 131, 131);
-    background-color: rgb(133, 131, 131);
+    color: white;
+    font-family: 'Roboto', serif;
+}
+
+.featured-smash {
+    font-family: 'Roboto', serif;
+    color: white;
 }
 
 .smashing-text span {
@@ -505,10 +521,20 @@ nav ul li button {
 
 .smashing-text button {
     padding: 20px 15px;
-    font-size: 2rem;
+    font-size: 1.5rem;
     border-radius: 10px;
     background: rgb(110,110,110);
 }
+
+.smashing-text button a{
+    text-decoration: none;
+}
+
+.smashing-text button a:hover {
+    color: white;
+}
+
+
 .curated-post {
     padding-top: 100px;
 }
@@ -563,6 +589,79 @@ nav ul li button {
 
 footer {
     height: 800px;
-    background-color: red;
+    background-color: rgb(133, 131, 131);
     margin-top: 10px;
+    padding: 20px;
+}
+
+.footer-title {
+    text-align: center;
+    padding: 50px 0;
+    color: white;
+    font-size: 16px;
+    font-family: 'Roboto', 'San-serif';
+}
+
+.footer1 {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+
+.footer1 ul li {
+    float: left;
+    margin-right: 10px;
+    font-size: 23px;
+    font-family: 'Roboto', 'San-serif';
+    line-height: 37px;
+    
+    
+}
+
+.footer1 ul li a {
+    color: white;
+}
+
+.footer1:after {
+    content:"";
+    display: list-item;
+    clear: both;
+    overflow: hidden;
+}
+
+
+.footer2 {
+    margin-top: 40px;
+}
+
+.footer2 p {
+    text-align: center;
+    color: white;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: 'Roboto', 'San-serif';
+}
+
+.footer2 p a {
+    color: white;
+}
+
+.footer3 {
+    margin-top: 50px;
+}
+
+.footer3-top ul li, .footer3-bottom ul li{
+    float: left;
+    list-style-type: none;
+    text-align: center;
+    margin: 20px;
+    font-size: 20px;
+    
+}
+
+.footer3-top:after {
+    content: "";
+    display: block;
+    clear: both;
+    overflow: hidden;
 }
