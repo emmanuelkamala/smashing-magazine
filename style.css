@@ -35,11 +35,14 @@ nav ul li {
     font-family: 'Bree Serif', serif;
     text-align: center;
     color: white;
+}
 
+nav ul li a:hover {
+    color: black;
 }
 
 nav ul li:first-child {
-    margin-left: 50px;
+    margin-left: 20px;
 }
 
 .bottom-title {
@@ -373,13 +376,22 @@ nav ul li button {
 .week-person,
 .community-link {
     background-color: white;
+   
 }
 
 .week-person {
-    height: 300px;
+    height: 400px;
     margin-bottom: 10px;
-    display: flex;
-    align-items: center;
+    padding-top: 50px;
+    
+    
+}
+
+.week-person::after {
+    content: "";
+    display: block;
+    clear: both;
+    overflow: hidden;
 }
 
 
@@ -388,7 +400,7 @@ nav ul li button {
     width: 200px;
     height: 130px;
     background: rgb(92, 92, 92);
-    margin: 0px 50px 0px 100px;
+    margin: 0 20px 0 100px;
 }
 
 .week-person-description {
@@ -396,11 +408,22 @@ nav ul li button {
     font-size: 1.5rem;
     line-height: 1.5;
 }
+
+
 .week-person-description span {
-    background-color: rgb(138, 138, 138);
-    color: rgb(138, 138, 138);
+    font-family: 'Roboto', 'serif';
+    font-size: 20px;
 
 }
+
+.week-person-title span {
+    display: inline-block;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: 'Roboto', 'serif';
+    
+}
+
 .community-link {
     padding: 100px;
 }
@@ -473,6 +496,7 @@ nav ul li button {
     width: 34%;
     height: 400px;
 }
+
 .book-container img {
     width: 35%;
     position: relative;
@@ -514,10 +538,10 @@ nav ul li button {
     color: white;
 }
 
-.smashing-text span {
+/*.smashing-text span {
     color: rgb(163, 163, 163);
     background-color:  rgb(163, 163, 163);
-}
+}*/
 
 .smashing-text button {
     padding: 20px 15px;
@@ -537,6 +561,7 @@ nav ul li button {
 
 .curated-post {
     padding-top: 100px;
+    margin: 0 auto;
 }
 .curated-post::after {
   content: "";
@@ -547,13 +572,13 @@ nav ul li button {
 .guide {
     float: left;
     width: 23%;
-    margin-left: 15px;
+    margin-left: 5px;
 
 }
 .guide h2 {
     font-size: 2em;
-    width: 85%;
-    margin: 0px auto;
+    width: 70%;
+    margin: 0 auto;
 }
 .guide ul {
 
