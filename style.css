@@ -17,7 +17,7 @@ li {
 
 
 header{
-    background-color: rgb(148, 148, 148);
+    background-color: rgb(80, 80, 80);
     height: 6.9375em;
     margin-top: 0;
 }
@@ -30,6 +30,7 @@ body  {
 nav ul li {
     float: left;
     margin: 10px 20px;
+    width: 12%;
     list-style-type: none;
     font-size: 30px;
     font-family: 'Bree Serif', serif;
@@ -48,7 +49,7 @@ nav ul li:first-child {
 .bottom-title {
     color: white;
     font-size: 18px;
-    font-family: font-family: 'Roboto', sans-serif;
+    font-family:'Roboto', sans-serif;
 
 }
 
@@ -72,6 +73,7 @@ nav ul li button {
 .intro-title {
     position: absolute;
     background-color: white;
+    background-color: rgb(100,100,100);
     text-align: center;
     top: 150px;
     font-family: 'Bree Serif', serif;
@@ -107,18 +109,18 @@ nav ul li button {
     float: left;
 }
 .article1 {
-    background-color: rgb(105, 104, 104);
+    background-color: rgb(100, 100, 100);
 
 }
 
 .article2,
 .button-top button {
     /* background-color: rgb(126, , 126); */
-    background-color: rgb(110, 108, 108);
+    background-color: rgb(110, 110, 110);
 }
 
 .article3 {
-        background-color: rgb(129, 127, 127);
+    background-color: rgb(115, 115, 115);
     
     }
 
@@ -186,15 +188,15 @@ nav ul li button {
 
 
 .latest1 {
-    background-color: rgb(141, 138, 138);
+    background-color: rgb(130, 130, 130);
 }
 
 .latest2 {
-    background-color: rgb(148, 145, 145);
+    background-color: rgb(148, 148, 148);
 }
 
 .latest3 {
-    background-color: rgb(161, 159, 159);
+    background-color: rgb(160, 160, 160);
 }
 
 .supporters {
@@ -243,7 +245,8 @@ nav ul li button {
 
 }
 
-.latest-post p {
+.latest-post p,
+.article-description {
     margin-top: 15px;
     margin-left: 13px;
     padding: 10px;
@@ -317,18 +320,41 @@ nav ul li button {
 }
 
 .latest-article1 {
-    background-color: rgb(133, 131, 131);
+    color: white;
+    background-color: rgb(100, 100, 100);
     width: 48%;
     margin: 15px;
     border-radius: 5px;
 }
+.latest-article1-description {
+    width: 70%;
+    text-align: center;
+}
+.latest-article1 button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.latest-article1 button a {
+    text-decoration: none;
+    font-size: 1.5em;
 
-.latest-article1-image {
-    width: 20%;
-    
-    filter: grayscale(90%);
+}
+.latest-article1-title {
+    font-size: 50px;
+    width: 60%;
+    text-align: center;
 }
 
+.latest-article1-image {
+    width: 40%;
+    filter: grayscale(100%);
+}
+.article-description {
+
+}
 .latest-article2,
 .latest-article3 {
     width: 25%;
@@ -627,6 +653,22 @@ nav ul li button {
     width: 25%;
 }
 
+.guide-one {
+    background-color: rgb(140, 140, 140);
+}
+
+.guide-two {
+    background-color: rgb(150, 150, 150);
+}
+
+.guide-three {
+    background-color: rgb(160, 160, 160)
+}
+
+.guide-four {
+    background-color: rgb(170, 170, 170)
+}
+
 .guide h2 {
     font-size: 1.8em;
     width: 80%;
@@ -652,9 +694,10 @@ nav ul li button {
 .smashing-newsletter {
     height: 900px;
     width: 90%;
-    background: rgb(207, 207, 207);
+    background: rgb(170, 170, 170);
     border-radius: 10px;
     margin: 50px auto;
+
 }
 
 .smashing-newsletter .wrapper {
@@ -684,22 +727,37 @@ nav ul li button {
 .smashing-newsletter h2 {
     margin: 25px auto;
     font-size: 3em;
+    background: rgb(100,100,100);
+
 }
 
+.imagine {
+    background-color: rgb(120,120, 120);
+}
 
+.input-wrapper {
+    width: 37%;
+    background-color: rgb(110,110,110);
+
+}
+.useful-tips {
+    background-color: rgb(140,140,140);
+}
 
 /* FOOTER */
 
 footer {
     height: 800px;
-    background-color: rgb(184, 184, 184);
+    background-color: rgb(200, 200, 200);
  
     padding: 20px;
 }
 
 .footer-title {
+    width: 30%;
+    margin: 50px auto;
+    background-color: rgb(175, 175, 175);
     text-align: center;
-    padding: 50px 0;
     color: white;
     font-size: 16px;
     font-family: 'Roboto', 'San-serif';
@@ -708,6 +766,7 @@ footer {
 .footer1 {
   width: 90%;
   margin: 0 auto;
+  background-color: rgb(130, 130, 130);
   
 }
 
@@ -763,11 +822,14 @@ footer {
 }
 
 .footer2 p {
+    background-color: rgb(155,155,155);
     text-align: center;
     color: white;
     line-height: 30px;
     font-size: 20px;
     font-family: 'Roboto', 'San-serif';
+    width: 35%;
+    margin: 0 auto;
 }
 
 .footer2 p a {
@@ -779,7 +841,9 @@ footer {
     margin: 50px auto;
     text-align: center;
 }
-
+.footer3 ul {
+    background-color: rgb(185, 185, 185);
+}
 .footer3 ul li {
     display: inline-block;
     margin: 15px;
