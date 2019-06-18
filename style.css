@@ -22,7 +22,7 @@ header{
     margin-top: 0;
 }
 
-main  {
+body  {
     background-color: rgb(240, 234, 234);
     
 }
@@ -561,7 +561,7 @@ nav ul li button {
 
 .curated-post {
     padding-top: 100px;
-    margin: 0 auto;
+
 }
 .curated-post::after {
   content: "";
@@ -571,21 +571,27 @@ nav ul li button {
 
 .guide {
     float: left;
-    width: 23%;
-    margin-left: 5px;
+    width: 26%;
+   
 
 }
 .guide h2 {
-    font-size: 2em;
-    width: 70%;
+    font-size: 1.8em;
+    width: 80%;
     margin: 0 auto;
+    font-family: 'Bree Serif', 'serif';
 }
 .guide ul {
 
     width: 80%;
-    font-size: 1.5em;
+    font-size: 1.4em;
     line-height: 1.7;
     margin: 40px auto;
+    font-family: 'Roboto', 'serif';
+}
+
+.guide ul li {
+   
 }
 
 
@@ -594,7 +600,7 @@ nav ul li button {
     width: 90%;
     background: rgb(207, 207, 207);
     border-radius: 10px;
-    margin: auto;
+    margin: 50px auto;
 }
 
 .smashing-newsletter .wrapper {
@@ -639,7 +645,7 @@ nav ul li button {
 footer {
     height: 800px;
     background-color: rgb(184, 184, 184);
-    margin-top: 10px;
+ 
     padding: 20px;
 }
 
