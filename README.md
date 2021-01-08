@@ -1,6 +1,8 @@
 # Description
 This is a design teardown of the smashing magazine homepage. The task for the project is to highlight in grayscale only the parts that a visitor would most likely see at first when looking at the page.
 
+![screenshot](./images/smashing_magazine.png) <br />
+
 # Built With...
 - HTML5
 - CSS3
