@@ -14,3 +14,20 @@ Mouhamadou Diouf (<a href="https://github.com/mouhadiouf">@mouhadiouf</a>)
 # Live Version
 
 https://emmanuelkamala.github.io/smashing-magazine/
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- The odin project
+- Bootstrap free framework
+- Microverse tips
+
