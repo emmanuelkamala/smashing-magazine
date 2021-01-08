@@ -7,13 +7,13 @@ This is a design teardown of the smashing magazine homepage. The task for the pr
 - HTML5
 - CSS3
 
-# Contributors
-Emmanuel J. Kamala (<a href="https://github.com/emmanuelkamala">@emmanuelkamala</a>)<br>
-Mouhamadou Diouf (<a href="https://github.com/mouhadiouf">@mouhadiouf</a>)
-
 # Live Version
 
 https://emmanuelkamala.github.io/smashing-magazine/
+
+# Contributors
+Emmanuel J. Kamala (<a href="https://github.com/emmanuelkamala">@emmanuelkamala</a>)<br>
+Mouhamadou Diouf (<a href="https://github.com/mouhadiouf">@mouhadiouf</a>)
 
 ## 🤝 Contributing
 
@@ -28,6 +28,5 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - The odin project
-- Bootstrap free framework
 - Microverse tips
 
